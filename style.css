@@ -69,8 +69,7 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
@@ -102,6 +101,10 @@ h3 {
   filter: brightness(80%);
 }
 
+.fas:active, .far:active {
+  filter: brightness(50%);
+  transform: translateY(2px);
+}
 
 
 .main-button {
